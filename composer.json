@@ -4,8 +4,8 @@
     "type": "project",
     "require": {
         "php": "^8.4",
-        "crystoline/xpsr-framework": "^0.2@dev",
-        "crystoline/xpsr-router-fastroute": "^0.2@dev",
+        "crystoline/xpsr-framework": "^0.3@dev",
+        "crystoline/xpsr-router-fastroute": "^0.3@dev",
         "nyholm/psr7": "^1.8.2",
         "twig/twig": "^3.4"
     },
@@ -50,7 +50,7 @@
     ],
     "extra": {
         "branch-alias": {
-            "dev-master": "0.2.x-dev"
+            "dev-master": "0.3.x-dev"
         }
     }
 }
