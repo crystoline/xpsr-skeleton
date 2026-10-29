@@ -15,6 +15,7 @@
     },
     "suggest": {
         "crystoline/xpsr-auth-jwt": "JWT sign-in for APIs: the jwt guard driver, JwtIssuer, and auth:jwt-secret",
+        "crystoline/xpsr-orm-eloquent": "Eloquent models on the XPSR database connection",
         "crystoline/xpsr-cache": "Application cache (PSR-16 and PSR-6) and the cache:clear command",
         "crystoline/xpsr-database": "Database connections (Doctrine DBAL) and migrations",
         "crystoline/xpsr-http-client": "Outgoing HTTP: a configured PSR-18 client and named clients",
