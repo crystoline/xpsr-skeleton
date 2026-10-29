@@ -19,6 +19,7 @@
         "crystoline/xpsr-queue": "Queued jobs on Symfony Messenger: sync, database, Redis, AMQP, or SQS, with retries and a failed jobs table",
         "crystoline/xpsr-mail": "Email on Symfony Mailer: a DSN transport, templates from the view layer, queued sending",
         "crystoline/xpsr-scheduler": "Scheduled tasks: commands, closures, and queued jobs on cron schedules, from one cron entry",
+        "crystoline/xpsr-storage": "File storage on Flysystem: named disks such as local and S3, uploads, and downloads",
         "crystoline/xpsr-cache": "Application cache (PSR-16 and PSR-6) and the cache:clear command",
         "crystoline/xpsr-database": "Database connections (Doctrine DBAL) and migrations",
         "crystoline/xpsr-http-client": "Outgoing HTTP: a configured PSR-18 client and named clients",
