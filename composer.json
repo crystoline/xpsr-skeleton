@@ -23,6 +23,7 @@
         "crystoline/xpsr-view-plates": "Plates (native PHP templates) as the view engine: app.view_engine plates",
         "crystoline/xpsr-view-latte": "Latte (context-aware escaping) as the view engine: app.view_engine latte",
         "crystoline/xpsr-view-blade": "Blade (standalone, through illuminate/view) as the view engine: app.view_engine blade",
+        "crystoline/xpsr-lock": "Locks across processes and servers: files, Redis, Redlock, or the database",
         "crystoline/xpsr-cache": "Application cache (PSR-16 and PSR-6) and the cache:clear command",
         "crystoline/xpsr-database": "Database connections (Doctrine DBAL) and migrations",
         "crystoline/xpsr-http-client": "Outgoing HTTP: a configured PSR-18 client and named clients",
