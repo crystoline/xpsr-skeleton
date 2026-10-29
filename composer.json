@@ -17,6 +17,7 @@
         "crystoline/xpsr-auth-jwt": "JWT sign-in for APIs: the jwt guard driver, JwtIssuer, and auth:jwt-secret",
         "crystoline/xpsr-orm-eloquent": "Eloquent models on the XPSR database connection",
         "crystoline/xpsr-queue": "Queued jobs on Symfony Messenger: sync, database, Redis, AMQP, or SQS, with retries and a failed jobs table",
+        "crystoline/xpsr-mail": "Email on Symfony Mailer: a DSN transport, templates from the view layer, queued sending",
         "crystoline/xpsr-cache": "Application cache (PSR-16 and PSR-6) and the cache:clear command",
         "crystoline/xpsr-database": "Database connections (Doctrine DBAL) and migrations",
         "crystoline/xpsr-http-client": "Outgoing HTTP: a configured PSR-18 client and named clients",
