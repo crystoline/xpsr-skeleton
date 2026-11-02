@@ -14,6 +14,7 @@
         "phpunit/phpunit": "^12.5"
     },
     "suggest": {
+        "crystoline/xpsr-api": "JSON API responses: resources with conditional fields and a data envelope, and pagination of DBAL, Doctrine, and Eloquent queries",
         "crystoline/xpsr-auth-jwt": "JWT sign-in for APIs: the jwt guard driver, JwtIssuer, and auth:jwt-secret",
         "crystoline/xpsr-orm-eloquent": "Eloquent models on the XPSR database connection",
         "crystoline/xpsr-queue": "Queued jobs on Symfony Messenger: sync, database, Redis, AMQP, or SQS, with retries and a failed jobs table",
