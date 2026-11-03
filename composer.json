@@ -4,8 +4,8 @@
     "type": "project",
     "require": {
         "php": "^8.4",
-        "crystoline/xpsr-framework": "^0.6@dev",
-        "crystoline/xpsr-router-fastroute": "^0.6@dev",
+        "crystoline/xpsr-framework": "^0.7@dev",
+        "crystoline/xpsr-router-fastroute": "^0.7@dev",
         "nyholm/psr7": "^1.8.2",
         "twig/twig": "^3.4"
     },
@@ -22,6 +22,7 @@
         "crystoline/xpsr-translation": "Translations: message files per locale, the request's locale from its route, session, cookie, or Accept-Language header, trans() in code and templates, and translated validation messages",
         "crystoline/xpsr-broadcast": "Live updates to browsers through a Mercure hub: publish to topics from code, events, or a queue job after the transaction commits, private topics with a cookie for the signed-in user, and hub_url() in templates",
         "crystoline/xpsr-auth-oauth2-server": "An OAuth2 authorization server on league/oauth2-server: client credentials, authorization code with PKCE, and refresh tokens; the oauth2 guard driver; clients, scopes, and consent",
+        "crystoline/xpsr-orm-cycle": "Cycle ORM: attribute-mapped entities on XPSR's database connections, with one shared transaction, migrations generated from the schema, entity behaviors, and a user provider",
         "crystoline/xpsr-auth-jwt": "JWT sign-in for APIs: the jwt guard driver, JwtIssuer, and auth:jwt-secret",
         "crystoline/xpsr-orm-eloquent": "Eloquent models on the XPSR database connection",
         "crystoline/xpsr-queue": "Queued jobs on Symfony Messenger: sync, database, Redis, AMQP, or SQS, with retries and a failed jobs table",
@@ -75,7 +76,7 @@
     ],
     "extra": {
         "branch-alias": {
-            "dev-master": "0.6.x-dev"
+            "dev-master": "0.7.x-dev"
         }
     }
 }
